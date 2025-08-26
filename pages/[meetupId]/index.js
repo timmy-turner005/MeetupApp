@@ -17,16 +17,6 @@ function MeetupDetails(props) {
         description={props.meetupData.description}
       />
     </Fragment>
-
-    // <Fragment>
-    //   <img
-    //     src=""
-    //     alt="A First Meetup"
-    //   />
-    //   <h1>A First Meetup</h1>
-    //   <address>123 Main St, City, Country</address>
-    //   <p>This is the first meetup description.</p>
-    // </Fragment>
   );
 }
 
