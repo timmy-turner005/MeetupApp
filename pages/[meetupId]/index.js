@@ -58,6 +58,8 @@ export async function getStaticProps(context) {
 
   console.log(selectedMeetup);
 
+  // console.log("Selected Meetup:", selectedMeetup);
+
   client.close();
 
   return {
